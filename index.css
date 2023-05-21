@@ -90,4 +90,10 @@ body.dark-mode {
     color: #fff;
 }
 
+/* Alterando cor dos labels no modo dark */
+.dark-mode label {
+    color: #ccc;
+}
+
+
     
