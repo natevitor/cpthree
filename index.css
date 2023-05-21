@@ -83,4 +83,11 @@ body.dark-mode {
     color: #fff;
 }
 
+/* Alterando estilo do container no modo dark */
+.dark-mode .container {
+    background-color: #555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
     
