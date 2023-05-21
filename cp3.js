@@ -37,3 +37,14 @@ if (firstName.length < 5 || lastName.length < 5 || email.length < 5) {
 
 return true;
 }
+
+// Adicionando evento de submit ao formulário
+document.getElementById('cadastroForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    if (validateForm()) {
+        console.log('Formulário válido. Enviando dados...'); // Mensagem de sucesso
+        document.getElementById('cadastroForm').submit(); // Envia o formulário
+    } else {
+        console.log('Formulário inválido. Preencha corretamente os campos.'); // Mensagem de erro
+    }
+});
