@@ -4,3 +4,24 @@
     <title>Formulário de Cadastro</title>
     <!-- Adicionado link para o arquivo CSS -->
     <link rel="stylesheet" type="text/css" href="index.css">
+    /head>
+<body>
+    <div class="container">
+        <!-- Adicionado o título do formulário -->
+        <h1>Formulário de Cadastro</h1>
+        
+        <form id="cadastroForm">
+            <label for="firstName">Primeiro Nome:</label>
+            <input type="text" id="firstName" required minlength="5">
+
+            <label for="lastName">Segundo Nome:</label>
+            <input type="text" id="lastName" required minlength="5">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required minlength="5">
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required minlength="6" maxlength="8">
+
+            <label for="confirmPassword">Confirmação de Senha:</label>
+            <input type="password" id="confirmPassword" required>
