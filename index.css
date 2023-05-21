@@ -17,4 +17,10 @@ h1 {
     margin-top: 0; /* Removido o espaçamento superior */
     margin-bottom: 20px;
 }
+
+/* Definindo estilo para os campos do formulário */
+.form-control {
+    margin-bottom: 20px;
+}
+
     
