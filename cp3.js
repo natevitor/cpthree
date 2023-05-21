@@ -12,3 +12,7 @@ function deactivateDarkMode() {
 document.getElementById('darkModeButton').addEventListener('click', function() {
     if (document.body.classList.contains('dark-mode')) {
         deactivateDarkMode(); // Desativa o Dark Mode
+    } else {
+        activateDarkMode(); // Ativa o Dark Mode
+    }
+});
