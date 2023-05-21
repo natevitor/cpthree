@@ -14,4 +14,7 @@
 /* Estilizando o título do formulário */
 h1 {
     text-align: center;
+    margin-top: 0; /* Removido o espaçamento superior */
+    margin-bottom: 20px;
+}
     
