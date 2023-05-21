@@ -62,4 +62,17 @@ label {
     background-color: #45a049; /* Alterando cor de fundo ao passar o mouse */
 }
 
+/* Estilizando o botão de Dark Mode */
+.dark-mode-button {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 9999;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
     
