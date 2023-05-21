@@ -16,3 +16,11 @@ document.getElementById('darkModeButton').addEventListener('click', function() {
         activateDarkMode(); // Ativa o Dark Mode
     }
 });
+
+// Função para validar o formulário
+function validateForm() {
+    var firstName = document.getElementById('firstName').value;
+    var lastName = document.getElementById('lastName').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var confirmPassword = document.getElementById('confirmPassword').value;
