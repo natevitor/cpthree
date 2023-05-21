@@ -24,3 +24,8 @@ function validateForm() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
     var confirmPassword = document.getElementById('confirmPassword').value;
+
+    // Verifica se a senha e a confirmação de senha são iguais
+    if (password !== confirmPassword) {
+        return false;
+    }
