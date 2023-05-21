@@ -29,3 +29,11 @@ function validateForm() {
     if (password !== confirmPassword) {
         return false;
     }
+
+// Verifica se os campos possuem tamanho mínimo adequado
+if (firstName.length < 5 || lastName.length < 5 || email.length < 5) {
+    return false;
+}
+
+return true;
+}
