@@ -1,4 +1,4 @@
-Estilos para o formulário de cadastro */
+/* Estilos para o formulário de cadastro */
 
 /* Definido estilo para o container do formulário */
 .container {
@@ -9,3 +9,9 @@ Estilos para o formulário de cadastro */
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     color: #333;
+}
+
+/* Estilizando o título do formulário */
+h1 {
+    text-align: center;
+    
