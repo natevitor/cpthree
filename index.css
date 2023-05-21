@@ -95,6 +95,11 @@ body.dark-mode {
     color: #ccc;
 }
 
+/* Alterando cor de fundo dos campos de input no modo dark */
+.dark-mode .input-field {
+    background-color: #444;
+}
+
 
 
 
