@@ -75,4 +75,12 @@ label {
     cursor: pointer;
 }
 
+/* Estilos para o Dark Mode */
+
+/* Alterando fundo do body */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
     
