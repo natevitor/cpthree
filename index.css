@@ -100,6 +100,12 @@ body.dark-mode {
     background-color: #444;
 }
 
+/* Alterando cor de fundo do botão de submit no modo dark */
+.dark-mode .submit-button {
+    background-color: #2ecc71;
+}
+
+
 
 
 
