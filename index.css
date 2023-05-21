@@ -1,0 +1,11 @@
+Estilos para o formulário de cadastro */
+
+/* Definido estilo para o container do formulário */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
