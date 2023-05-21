@@ -105,6 +105,11 @@ body.dark-mode {
     background-color: #2ecc71;
 }
 
+/* Alterando cor de fundo do botão de submit ao passar o mouse no modo dark */
+.dark-mode .submit-button:hover {
+    background-color: #27ae60;
+}
+
 
 
 
